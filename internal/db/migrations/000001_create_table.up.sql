@@ -5,7 +5,7 @@ CREATE TABLE users (
     password_hash VARCHAR(255) NOT NULL,
     full_name VARCHAR(100),
     date_of_birth DATE,
-    role VARCHAR(20) NOT NULL DEFAULT 'user', -- Add role column with default value
+    role VARCHAR(20) NOT NULL DEFAULT 'user', 
     created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
 );

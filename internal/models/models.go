@@ -22,4 +22,5 @@ type UserCreate struct {
 	Email       string    `json:"email"`
 	FullName    string    `json:"full_name"`
 	DateOfBirth time.Time `json:"date_of_birth"`
+	Role        string    `json:"role"`
 }
