@@ -73,7 +73,6 @@ definitions:
       username:
         type: string
     type: object
-host: localhost:8083
 info:
   contact:
     email: support@swagger.io
